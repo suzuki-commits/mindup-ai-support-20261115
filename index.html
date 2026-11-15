@@ -1,0 +1,1752 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>
+      株式会社マインドアップ様
+      生成AIで実施できる生産性向上のご支援｜株式会社コミクス
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Noto+Sans+JP:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --ink: #221714;
+        --text: #2f2a28;
+        --blue: #0068b6;
+        --blue-deep: #004e8a;
+        --blue-wash: #eef5fb;
+        --verm: #fb4113;
+        --verm-deep: #c9300a;
+        --verm-wash: #fff2ec;
+        --paper: #ffffff;
+        --band: #f5f6f7;
+        --line: #d1d3d7;
+        --note: #4b4643;
+        --display:
+          "Zen Kaku Gothic New", "Noto Sans JP", "Hiragino Sans", "Yu Gothic",
+          sans-serif;
+        --body:
+          "Noto Sans JP", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
+        --num: "Barlow Condensed", "Zen Kaku Gothic New", sans-serif;
+        --c-bun: #0068b6;
+        --c-yaku: #1a7a45;
+        --c-gazo: #7b3fa0;
+        --c-onsei: #a65a00;
+        --c-hyo: #0a727a;
+        --c-jido: #4b4643;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--text);
+        font-family: var(--body);
+        font-size: 17px;
+        line-height: 1.85;
+        overflow-x: hidden;
+      }
+      a {
+        color: var(--blue-deep);
+        text-underline-offset: 3px;
+        overflow-wrap: anywhere;
+      }
+      a:focus-visible {
+        outline: 3px solid var(--verm);
+        outline-offset: 3px;
+      }
+      p {
+        margin: 0 0 1em;
+      }
+      strong {
+        color: var(--ink);
+        font-weight: 700;
+      }
+      .sr {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+      }
+      .wrap {
+        max-width: 1040px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
+
+      .top {
+        border-bottom: 1px solid var(--line);
+        padding: 14px 0;
+        font-size: 17px;
+        color: var(--note);
+      }
+      .top .wrap {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+      .top b {
+        color: var(--blue);
+        font-family: var(--display);
+        letter-spacing: 0.04em;
+      }
+
+      .hero {
+        padding: 64px 0 48px;
+      }
+      .hero .to {
+        display: inline-block;
+        font-family: var(--display);
+        font-weight: 700;
+        font-size: 20px;
+        color: var(--ink);
+        border-left: 6px solid var(--blue);
+        padding-left: 14px;
+        margin-bottom: 26px;
+      }
+      .hero h1 {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: clamp(25px, 4.6vw, 46px);
+        line-height: 1.4;
+        color: var(--ink);
+        margin: 0 0 22px;
+        letter-spacing: 0.01em;
+      }
+      .hero h1 .ph {
+        display: inline-block;
+      }
+      @media (max-width: 760px) {
+        .hero h1 br.pc {
+          display: none;
+        }
+      }
+      .hero h1 em {
+        font-style: normal;
+        color: var(--blue);
+      }
+      .hero .lead {
+        font-size: 19px;
+        max-width: 46em;
+        margin-bottom: 34px;
+      }
+      .facts {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border-top: 2px solid var(--ink);
+      }
+      .facts > div {
+        padding: 20px 20px 6px 0;
+        border-right: 1px solid var(--line);
+      }
+      .facts > div + div {
+        padding-left: 24px;
+      }
+      .facts > div:last-child {
+        border-right: 0;
+      }
+      .facts .n {
+        font-family: var(--num);
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 1;
+        color: var(--ink);
+      }
+      .facts .n small {
+        font-family: var(--display);
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 4px;
+      }
+      .facts .n.accent {
+        color: var(--verm-deep);
+      }
+      .facts p {
+        margin: 8px 0 0;
+        font-size: 17px;
+        line-height: 1.6;
+      }
+
+      .toc {
+        background: var(--band);
+        padding: 22px 0;
+        margin-bottom: 8px;
+      }
+      .toc ol {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px 20px;
+      }
+      .toc a {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 17px;
+        color: var(--ink);
+        display: block;
+        padding: 4px 0;
+      }
+      .toc a span {
+        font-family: var(--num);
+        color: var(--verm-deep);
+        font-size: 20px;
+        margin-right: 8px;
+      }
+      .toc a:hover {
+        color: var(--blue-deep);
+      }
+
+      section {
+        padding: 64px 0 24px;
+      }
+      .sec-no {
+        font-family: var(--num);
+        font-weight: 600;
+        font-size: 24px;
+        color: var(--verm-deep);
+        letter-spacing: 0.08em;
+      }
+      h2 {
+        font-family: var(--display);
+        font-weight: 900;
+        font-size: clamp(26px, 3.6vw, 36px);
+        line-height: 1.4;
+        color: var(--ink);
+        margin: 4px 0 18px;
+        text-wrap: balance;
+      }
+      h3 {
+        font-family: var(--display);
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.5;
+        color: var(--ink);
+        margin: 0 0 8px;
+      }
+      h4 {
+        font-family: var(--display);
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.5;
+        color: var(--ink);
+        margin: 2px 0 8px;
+      }
+      .intro {
+        max-width: 46em;
+        margin-bottom: 28px;
+      }
+      .cap {
+        font-size: 17px;
+        color: var(--note);
+        line-height: 1.7;
+        margin-top: 16px;
+      }
+      .flow-title {
+        margin: 40px 0 14px;
+      }
+
+      /* タグ */
+      .tg {
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 1.5;
+        padding: 1px 12px;
+        color: #fff;
+        border-radius: 2px;
+        white-space: nowrap;
+      }
+      .t-bun {
+        background: var(--c-bun);
+      }
+      .t-yaku {
+        background: var(--c-yaku);
+      }
+      .t-gazo {
+        background: var(--c-gazo);
+      }
+      .t-onsei {
+        background: var(--c-onsei);
+      }
+      .t-hyo {
+        background: var(--c-hyo);
+      }
+      .t-jido {
+        background: var(--c-jido);
+      }
+      .t-base {
+        background: var(--ink);
+      }
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin: 0 0 12px;
+      }
+
+      /* 01 */
+      .three {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+      }
+      .biz {
+        border: 1px solid var(--line);
+        border-top: 4px solid var(--blue);
+        background: var(--band);
+        padding: 22px 22px 8px;
+      }
+      .biz h4 {
+        font-size: 21px;
+        margin: 0 0 8px;
+      }
+      .biz p {
+        margin: 0 0 12px;
+        line-height: 1.75;
+      }
+      .biz .out {
+        background: #fff;
+        padding: 8px 12px;
+      }
+      .biz .out b {
+        color: var(--ink);
+      }
+      .bignum {
+        font-family: var(--num);
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 1;
+        color: var(--verm-deep);
+        margin-bottom: 6px;
+      }
+      .entry .biz {
+        border-top-color: var(--verm);
+      }
+
+      .profile {
+        width: 100%;
+        max-width: 760px;
+        border-collapse: collapse;
+        margin: 32px 0 0;
+      }
+      .profile th,
+      .profile td {
+        text-align: left;
+        vertical-align: top;
+        padding: 10px 14px;
+        border-bottom: 1px solid var(--line);
+      }
+      .profile th {
+        width: 8em;
+        color: var(--ink);
+        background: var(--band);
+        font-weight: 700;
+      }
+
+      .flow {
+        border: 1px solid var(--line);
+        padding: 22px;
+        background: #fff;
+      }
+      .flow .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 6px;
+        margin-bottom: 16px;
+      }
+      .flow .chip {
+        display: inline-block;
+        border: 2px solid var(--ink);
+        background: #fff;
+        padding: 6px 9px;
+        font-weight: 700;
+        color: var(--ink);
+        line-height: 1.5;
+      }
+      .flow .lab {
+        display: inline-block;
+        background: var(--verm-deep);
+        color: #fff;
+        font-weight: 700;
+        padding: 6px 14px;
+        line-height: 1.5;
+      }
+      .flow .ar::after {
+        content: "→";
+        font-family: var(--num);
+        font-size: 22px;
+        color: var(--blue);
+        font-weight: 600;
+      }
+      .flow .row-lab {
+        margin-bottom: 8px;
+      }
+      .flow .band {
+        background: var(--blue);
+        color: #fff;
+        font-weight: 700;
+        padding: 10px 16px;
+        text-align: center;
+      }
+
+      /* 02 */
+      .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+      }
+      .card {
+        border: 1px solid var(--line);
+        border-left: 5px solid var(--blue);
+        padding: 20px 22px 18px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+      }
+      .card.plain {
+        background: var(--band);
+      }
+      .card .head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+      }
+      .card .id {
+        font-family: var(--num);
+        font-weight: 600;
+        font-size: 22px;
+        color: var(--verm-deep);
+        letter-spacing: 0.06em;
+      }
+      .card .est {
+        font-size: 15px;
+        font-weight: 700;
+        color: var(--ink);
+        border: 2px solid var(--ink);
+        padding: 0 10px;
+        line-height: 1.6;
+      }
+      .card .badge {
+        font-size: 15px;
+        font-weight: 700;
+        color: #fff;
+        background: var(--verm);
+        padding: 1px 12px;
+        line-height: 1.6;
+      }
+      .card.focus {
+        border-left-color: var(--verm);
+        background: var(--verm-wash);
+      }
+      .card h4 {
+        margin: 4px 0 8px;
+      }
+      .card p {
+        line-height: 1.75;
+        margin: 0 0 10px;
+      }
+      .card .out {
+        background: var(--band);
+        padding: 8px 12px;
+      }
+      .card.focus .out {
+        background: #fff;
+      }
+      .card .out b,
+      .card .fee b {
+        color: var(--ink);
+      }
+      .nw {
+        display: inline-block;
+      }
+      .card .fee {
+        margin: 0;
+        border-top: 1px dashed var(--line);
+        padding-top: 10px;
+      }
+      .card .tags + .out {
+        margin-top: 12px;
+      }
+      .card .out {
+        margin-bottom: 14px;
+      }
+      .cards > .card.plain:last-child:nth-child(odd) {
+        grid-column: 1 / -1;
+      }
+
+      /* 03 */
+      .kinds {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border-top: 2px solid var(--ink);
+      }
+      .kinds li {
+        display: flex;
+        align-items: baseline;
+        gap: 18px;
+        padding: 12px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .kinds .tg {
+        flex: 0 0 7.2em;
+        text-align: center;
+      }
+
+      /* 04 */
+      .area {
+        margin-top: 44px;
+      }
+      .area-head {
+        display: flex;
+        align-items: baseline;
+        gap: 14px;
+        border-bottom: 2px solid var(--ink);
+        padding-bottom: 8px;
+        margin-bottom: 18px;
+      }
+      .area-head .letter {
+        font-family: var(--num);
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 1;
+        color: var(--blue);
+      }
+      .area-head h3 {
+        margin: 0;
+      }
+
+      /* 05 */
+      .steps {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border: 1px solid var(--line);
+        counter-reset: st;
+      }
+      .steps > div {
+        padding: 22px 20px;
+        border-right: 1px solid var(--line);
+        counter-increment: st;
+      }
+      .steps > div:last-child {
+        border-right: 0;
+      }
+      .steps > div::before {
+        content: "0" counter(st);
+        font-family: var(--num);
+        font-weight: 600;
+        font-size: 34px;
+        color: var(--blue);
+        display: block;
+        line-height: 1;
+        margin-bottom: 8px;
+      }
+      .steps h4 {
+        font-size: 20px;
+        margin: 0 0 6px;
+      }
+      .steps p {
+        line-height: 1.7;
+        margin: 0;
+      }
+
+      /* 06 */
+      .own {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .own th,
+      .own td {
+        text-align: left;
+        vertical-align: top;
+        padding: 16px 14px;
+        border-bottom: 1px solid var(--line);
+      }
+      .own thead th {
+        font-size: 17px;
+        color: #fff;
+        background: var(--ink);
+        font-weight: 700;
+        border-bottom: 0;
+      }
+      .own td:first-child {
+        width: 36%;
+      }
+      .own .big {
+        font-family: var(--num);
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 1.1;
+        color: var(--blue-deep);
+        display: block;
+      }
+      .own .big small {
+        font-family: var(--display);
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 3px;
+      }
+      .own .src {
+        display: block;
+        font-size: 17px;
+        color: var(--note);
+        line-height: 1.6;
+        margin-top: 4px;
+      }
+
+      /* 07 */
+      .overlap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 2px solid var(--ink);
+      }
+      .overlap > div {
+        padding: 26px 28px;
+      }
+      .overlap .done {
+        background: var(--band);
+        border-right: 2px solid var(--ink);
+      }
+      .overlap .next {
+        background: var(--blue-wash);
+      }
+      .overlap .tag {
+        display: inline-block;
+        font-size: 17px;
+        font-weight: 700;
+        padding: 2px 14px;
+        margin-bottom: 12px;
+        color: #fff;
+        background: var(--ink);
+      }
+      .overlap .next .tag {
+        background: var(--blue);
+      }
+      .overlap ul {
+        margin: 10px 0 0;
+        padding-left: 1.2em;
+      }
+      .overlap li {
+        margin-bottom: 6px;
+      }
+      .asks {
+        counter-reset: q;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .asks li {
+        counter-increment: q;
+        position: relative;
+        padding: 16px 0 16px 64px;
+        border-bottom: 1px solid var(--line);
+        font-size: 18px;
+      }
+      .asks li::before {
+        content: "Q" counter(q);
+        position: absolute;
+        left: 0;
+        top: 12px;
+        font-family: var(--num);
+        font-weight: 600;
+        font-size: 32px;
+        color: var(--verm-deep);
+      }
+
+      /* 08 */
+      .notes {
+        background: var(--band);
+        margin-top: 64px;
+        padding: 44px 0 36px;
+      }
+      .notes h2 {
+        font-size: 26px;
+      }
+      .notes h3 {
+        margin-top: 20px;
+      }
+      .notes ul {
+        margin: 0 0 18px;
+        padding-left: 1.2em;
+        line-height: 1.8;
+      }
+      .notes li {
+        margin-bottom: 8px;
+      }
+      footer {
+        padding: 36px 0 56px;
+      }
+      footer .sig {
+        font-family: var(--display);
+        font-weight: 700;
+        color: var(--ink);
+        font-size: 19px;
+        line-height: 1.7;
+      }
+
+      @media (max-width: 860px) {
+        .hero {
+          padding: 40px 0 32px;
+        }
+        .facts,
+        .three,
+        .cards,
+        .overlap {
+          grid-template-columns: 1fr;
+        }
+        .facts > div {
+          border-right: 0;
+          border-bottom: 1px solid var(--line);
+          padding: 16px 0 12px;
+        }
+        .facts > div + div {
+          padding-left: 0;
+        }
+        .overlap .done {
+          border-right: 0;
+          border-bottom: 2px solid var(--ink);
+        }
+        .toc ol {
+          grid-template-columns: 1fr 1fr;
+        }
+        .steps {
+          grid-template-columns: 1fr 1fr;
+        }
+        .steps > div:nth-child(2) {
+          border-right: 0;
+        }
+        .steps > div:nth-child(-n + 2) {
+          border-bottom: 1px solid var(--line);
+        }
+        section {
+          padding: 48px 0 16px;
+        }
+        .own thead {
+          display: none;
+        }
+        .own,
+        .own tbody {
+          display: block;
+        }
+        .own tr {
+          display: block;
+          border-bottom: 2px solid var(--ink);
+          padding: 12px 0;
+        }
+        .own td {
+          display: block;
+          width: 100% !important;
+          border-bottom: 0;
+          padding: 6px 0;
+        }
+        .own td[data-l]::before {
+          content: attr(data-l);
+          display: block;
+          font-size: 15px;
+          font-weight: 700;
+          color: var(--blue-deep);
+        }
+        .profile,
+        .profile tbody,
+        .profile tr,
+        .profile th,
+        .profile td {
+          display: block;
+          width: 100%;
+        }
+        .profile tr {
+          border-bottom: 1px solid var(--line);
+          padding: 6px 0;
+        }
+        .profile th,
+        .profile td {
+          border-bottom: 0;
+          padding: 4px 8px;
+        }
+        .flow .row {
+          flex-direction: column;
+          align-items: stretch;
+          gap: 6px;
+        }
+        .flow .chip,
+        .flow .lab {
+          text-align: center;
+        }
+        .flow .ar {
+          text-align: center;
+          line-height: 1;
+        }
+        .flow .ar::after {
+          content: "↓";
+        }
+      }
+      @media (max-width: 480px) {
+        .wrap {
+          padding: 0 18px;
+        }
+        .steps {
+          grid-template-columns: 1fr;
+        }
+        .steps > div {
+          border-right: 0;
+          border-bottom: 1px solid var(--line);
+        }
+        .steps > div:last-child {
+          border-bottom: 0;
+        }
+        .facts .n {
+          font-size: 52px;
+        }
+        .toc ol {
+          grid-template-columns: 1fr;
+        }
+        .kinds li {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 6px;
+        }
+        .kinds .tg {
+          flex: none;
+        }
+        .card {
+          padding: 18px 16px 16px;
+        }
+      }
+      @media print {
+        .toc {
+          display: none;
+        }
+        section {
+          padding: 28px 0 8px;
+        }
+        .card,
+        .biz {
+          break-inside: avoid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <div class="wrap">
+        <span><b>株式会社コミクス</b></span>
+        <span>2026年11月15日作成・ご面談用資料</span>
+      </div>
+    </div>
+
+    <header class="hero">
+      <div class="wrap">
+        <div class="to">
+          <span class="nw">株式会社マインドアップ</span>　<span class="nw"
+            >取締役社長　山村 智直 様</span
+          >
+        </div>
+        <h1>
+          <span class="ph">「書く・訳す・まとめる」は</span
+          ><span class="ph">生成AIへ。</span><br class="pc" /><span class="ph"
+            >14名の時間を、</span
+          ><br class="pc" /><span class="ph"><em>商品づくりと</em></span
+          ><span class="ph"><em>代理店との関係</em>に</span
+          ><span class="ph">戻します。</span>
+        </h1>
+        <p class="lead">
+          御社の公式サイトと、2026年1月に公開されたジェトロ（JETRO）の取材記事を読み、生成AIで実施できるご支援を20項目にまとめました。人・犬・猫の口腔ケアという専門性の高い商品を、日本語・英語・中国語で発信し、海外の代理店と展示会を通じて広げておられます。その仕事のうち、文章を書く・言葉を訳す・数字をまとめる部分は、生成AIに下書きを任せられます。判断と対面の仕事は、これまでどおり御社が担います。
+        </p>
+        <div class="facts">
+          <div>
+            <div class="n">14<small>名</small></div>
+            <p>
+              従業員数（会社概要 2023年3月15日現在／ジェトロの取材記事
+              2025年10月）
+            </p>
+          </div>
+          <div>
+            <div class="n accent">9<small>社</small></div>
+            <p>
+              海外の代理店・取扱店（中国・香港・韓国・台湾・シンガポール・カナダ・トルコ・マレーシア）
+            </p>
+          </div>
+          <div>
+            <div class="n">4<small>回</small></div>
+            <p>
+              2026年の海外展示会への出展（香港・タイ・ドイツ・オーストラリア）。このほか国内でインターペット東京に出展
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="toc" aria-label="目次">
+      <div class="wrap">
+        <ol>
+          <li>
+            <a href="#s1"><span>01</span>御社の事業</a>
+          </li>
+          <li>
+            <a href="#s2"><span>02</span>時間がかかりやすい場所</a>
+          </li>
+          <li>
+            <a href="#s3"><span>03</span>使う生成AIの種類</a>
+          </li>
+          <li>
+            <a href="#s4"><span>04</span>支援一覧（20項目）</a>
+          </li>
+          <li>
+            <a href="#s5"><span>05</span>始め方</a>
+          </li>
+          <li>
+            <a href="#s6"><span>06</span>当社の実測</a>
+          </li>
+          <li>
+            <a href="#s7"><span>07</span>任せない仕事</a>
+          </li>
+          <li>
+            <a href="#s8"><span>08</span>注記と出典</a>
+          </li>
+        </ol>
+      </div>
+    </nav>
+
+    <main>
+      <section id="s1">
+        <div class="wrap">
+          <div class="sec-no">01</div>
+          <h2>公開情報から見た、御社の事業</h2>
+          <p class="intro">
+            公式サイトとジェトロの取材記事から読み取った内容です。誤りがあれば面談でご指摘ください。
+          </p>
+          <div class="three">
+            <div class="biz">
+              <h4>人のオーラルケア</h4>
+              <p>
+                1994年3月に発売した「歯石屋くん」を軸に、「衛生歯さん」「快適甲斐」「M-Care」を展開。茶の粉末を使った石鹸などの「想茶」もお持ちです。
+              </p>
+            </div>
+            <div class="biz">
+              <h4>犬と猫のオーラルケア</h4>
+              <p>
+                2006年2月に「犬口ケア」でペット市場へ。現在は「猫口ケア」「シズ公」「シズ吉」まで広がっています。歯ブラシのヘッドの形、液状はみがき、歯みがきキットなど、品目が細かく分かれています。
+              </p>
+            </div>
+            <div class="biz">
+              <h4>海外への展開</h4>
+              <p>
+                2013年2月の香港の展示会から始まり、代理店を中心に広げてこられました。2024年には台湾で総代理店契約を新たに結んでおられます。取引は前金で、注文は半年ごとに決めておられます（ジェトロの取材記事）。
+              </p>
+            </div>
+          </div>
+
+          <table class="profile">
+            <caption class="sr">
+              会社の概要
+            </caption>
+            <tbody>
+              <tr>
+                <th scope="row">設立</th>
+                <td>1991年3月15日</td>
+              </tr>
+              <tr>
+                <th scope="row">本社</th>
+                <td>山梨県甲府市下飯田</td>
+              </tr>
+              <tr>
+                <th scope="row">資本金</th>
+                <td>3,000万円</td>
+              </tr>
+              <tr>
+                <th scope="row">事業内容</th>
+                <td>日用品雑貨の企画・開発・製造・販売</td>
+              </tr>
+              <tr>
+                <th scope="row">代表</th>
+                <td>
+                  <span class="nw">代表取締役会長 山村 敏 様</span>／<span
+                    class="nw"
+                    >取締役社長 山村 智直 様</span
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 class="flow-title">
+            御社の仕事の流れ（公開情報からの当社の推定）
+          </h3>
+          <div class="flow">
+            <div class="row">
+              <span class="chip">商品の企画・開発</span
+              ><span class="ar" aria-hidden="true"></span
+              ><span class="chip">製造・調達</span
+              ><span class="ar" aria-hidden="true"></span
+              ><span class="chip">国内での販売</span>
+            </div>
+            <div class="row-lab"><span class="lab">海外</span></div>
+            <div class="row">
+              <span class="chip">展示会</span
+              ><span class="ar" aria-hidden="true"></span
+              ><span class="chip">代理店との商談・契約</span
+              ><span class="ar" aria-hidden="true"></span
+              ><span class="chip">受注（前金・半年ごと）</span
+              ><span class="ar" aria-hidden="true"></span
+              ><span class="chip">輸出・通関</span
+              ><span class="ar" aria-hidden="true"></span
+              ><span class="chip">現地での販売と口コミ</span>
+            </div>
+            <div class="band">
+              日本語・英語・中国語のサイト、ニュース、SNS での発信
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="s2">
+        <div class="wrap">
+          <div class="sec-no">02</div>
+          <h2>時間がかかりやすい場所（公開情報からの当社の推定）</h2>
+          <p class="intro">
+            面談の前なので、ここに書くのは公開情報からの当社の推定です。実際にどこで時間を取られているかは、面談でうかがいます。
+          </p>
+          <div class="cards">
+            <article class="card plain">
+              <div class="head"><span class="est">推定</span></div>
+              <h4>代理店とのやり取りが、国の数だけ増える</h4>
+              <p>
+                9社の代理店・取扱店に加え、タイ、インドネシア、ベトナム、インドなどとも接点をお持ちです（ジェトロの取材記事）。メール、見積、注文、出荷の連絡を、相手の言語と商習慣に合わせて書く作業は、国が増えるほど重くなります。
+              </p>
+            </article>
+            <article class="card plain">
+              <div class="head"><span class="est">推定</span></div>
+              <h4>展示会の前と後に、作業が集中する</h4>
+              <p>
+                2026年は海外で4回、国内で1回の出展です。出展前の資料づくりと、会期後に集まった名刺・問い合わせへのお礼と追いかけは、短い期間に集中します。
+              </p>
+            </article>
+            <article class="card plain">
+              <div class="head"><span class="est">推定</span></div>
+              <h4>国ごとの登録と通関</h4>
+              <p>
+                タイでの通関の遅れと保管料、トルコで展示物が通関できなかったことが、取材記事で語られています。必要な書類や表示の要件は国ごとに違い、調べるだけでも手間がかかります。
+              </p>
+            </article>
+            <article class="card plain">
+              <div class="head"><span class="est">推定</span></div>
+              <h4>商品の情報を、品目と言語の数だけ整える</h4>
+              <p>
+                9つのブランドに、ヘッドの形や対象（犬・猫）で分かれる品目があります。それを日本語・英語・中国語、さらに代理店の国の言語で説明するには、1つの商品説明を言語の数だけ書くことになります。
+              </p>
+            </article>
+            <article class="card plain">
+              <div class="head"><span class="est">推定</span></div>
+              <h4>EC と口コミ</h4>
+              <p>
+                取材記事では、EC
+                のレビューによる口コミを重視していること、Shopee
+                などへの掲載はコスト面でまだ手を付けていないことが語られています。商品ページの文面づくりとレビューの読み込みは、手作業だと続けにくい仕事です。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="s3">
+        <div class="wrap">
+          <div class="sec-no">03</div>
+          <h2>使う生成AIの種類</h2>
+          <p class="intro">
+            「各種AI」と一口に言っても、得意なことが違います。下の支援一覧では、項目ごとに使う種類を印で示しています。
+          </p>
+          <ul class="kinds">
+            <li>
+              <span class="tg t-bun">文章</span
+              ><span
+                >下書き、要約、言い換え（Claude・ChatGPT・Gemini など）</span
+              >
+            </li>
+            <li>
+              <span class="tg t-yaku">翻訳</span
+              ><span
+                >英語・中国語・韓国語・タイ語などへの訳と、訳文の見直し</span
+              >
+            </li>
+            <li>
+              <span class="tg t-gazo">画像</span
+              ><span>使い方の図解、SNS 用の画像、展示会の配布物のたたき台</span>
+            </li>
+            <li>
+              <span class="tg t-onsei">音声・動画</span
+              ><span>現地語のナレーション、紹介動画の台本と字幕</span>
+            </li>
+            <li>
+              <span class="tg t-hyo">表計算</span
+              ><span
+                >受注・出荷・在庫の集計、商品の情報の整理（Excel・スプレッドシートと連携）</span
+              >
+            </li>
+            <li>
+              <span class="tg t-jido">自動実行</span
+              ><span
+                >毎朝・毎週の決まった集計や一覧づくりを、人が操作せずに回す</span
+              >
+            </li>
+          </ul>
+          <p class="cap">
+            どのサービスを使うかは、御社が扱う情報の性質と、いまお使いの環境に合わせて決めます（支援項目
+            E1）。
+          </p>
+        </div>
+      </section>
+
+      <section id="s4">
+        <div class="wrap">
+          <div class="sec-no">04</div>
+          <h2>具体的に実施できる支援一覧（20項目）</h2>
+          <p class="intro">
+            5つの領域に分けました。<strong>★最初に効く</strong>
+            の印は、取材記事で語られていた負荷に直結し、早く効果が出やすい3項目です。「人が担うこと」は、生成AIに任せない部分です。
+          </p>
+          <div class="area">
+            <div class="area-head">
+              <span class="letter">A</span>
+              <h3>海外営業・代理店</h3>
+            </div>
+            <div class="cards">
+              <article class="card focus">
+                <div class="head">
+                  <span class="id">A1</span
+                  ><span class="badge">★最初に効く</span>
+                </div>
+                <h4>代理店との多言語メールの下書き</h4>
+                <p>
+                  日本語で要点を書くと、相手の言語でメールの下書きを作ります。過去のやり取りを踏まえた返信案、催促、新商品の案内にも使えます。英語に加え、中国語・韓国語・タイ語など、代理店の国の言語に対応します。
+                </p>
+                <div class="tags">
+                  <span class="tg t-bun">文章</span
+                  ><span class="tg t-yaku">翻訳</span>
+                </div>
+                <p class="out">
+                  <b>人が担うこと：</b>送る前の確認と、条件・価格の判断
+                </p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用支援パック</p>
+              </article>
+              <article class="card">
+                <div class="head"><span class="id">A2</span></div>
+                <h4>見積・注文の確認・出荷連絡のたたき台</h4>
+                <p>
+                  国ごとの書式に合わせて、見積や注文の確認書、出荷の案内の下書きを作ります。半年ごとの注文の時期を一覧にし、時期が近づいた代理店をお知らせします。
+                </p>
+                <div class="tags">
+                  <span class="tg t-bun">文章</span
+                  ><span class="tg t-hyo">表計算</span
+                  ><span class="tg t-jido">自動実行</span>
+                </div>
+                <p class="out"><b>人が担うこと：</b>金額と条件の確定</p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用支援パック</p>
+              </article>
+              <article class="card">
+                <div class="head"><span class="id">A3</span></div>
+                <h4>代理店ごとの販売状況を1枚に</h4>
+                <p>
+                  受注・出荷の記録から、代理店ごと・商品ごとの動きを月に1回まとめます。伸びている国、注文が減っている国がひと目で分かる形にします。
+                </p>
+                <div class="tags">
+                  <span class="tg t-hyo">表計算</span
+                  ><span class="tg t-jido">自動実行</span>
+                </div>
+                <p class="out">
+                  <b>人が担うこと：</b>数字を見ての判断と、代理店への働きかけ
+                </p>
+                <p class="fee">
+                  <b>対応するご支援：</b>生成AI活用支援パック（スタンダード）
+                </p>
+              </article>
+              <article class="card">
+                <div class="head"><span class="id">A4</span></div>
+                <h4>新しい国の下調べ</h4>
+                <p>
+                  候補の国のペット用品の市場、競合の商品、輸入手続きの概要を、出典のリンク付きでまとめます。次にどの国へ広げるかを決める前の材料づくりに使います。
+                </p>
+                <div class="tags">
+                  <span class="tg t-bun">文章</span
+                  ><span class="tg t-yaku">翻訳</span>
+                </div>
+                <p class="out">
+                  <b>人が担うこと：</b
+                  >進出の判断（規制の最終確認は代理店・専門家）
+                </p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用顧問</p>
+              </article>
+              <article class="card">
+                <div class="head"><span class="id">A5</span></div>
+                <h4>国別の登録・通関書類のチェックリスト</h4>
+                <p>
+                  国ごとに求められる書類、成分の記載、表示の項目を、御社の過去の実績と公開資料から一覧にします。出荷の前に抜けがないかを確かめる表として使います。
+                </p>
+                <div class="tags">
+                  <span class="tg t-bun">文章</span
+                  ><span class="tg t-hyo">表計算</span>
+                </div>
+                <p class="out">
+                  <b>人が担うこと：</b
+                  >最終確認（代理店・通関業者・専門家とともに）
+                </p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用支援パック</p>
+              </article>
+            </div>
+          </div>
+          <div class="area">
+            <div class="area-head">
+              <span class="letter">B</span>
+              <h3>展示会</h3>
+            </div>
+            <div class="cards">
+              <article class="card">
+                <div class="head"><span class="id">B1</span></div>
+                <h4>出展前の資料を、その国の言語で</h4>
+                <p>
+                  商品説明のシート、ブースの掲示、商談で話す台本を、展示会の国の言語でそろえます。前回の資料を下敷きにして、出展のたびに一から作らない形にします。
+                </p>
+                <div class="tags">
+                  <span class="tg t-bun">文章</span
+                  ><span class="tg t-yaku">翻訳</span
+                  ><span class="tg t-gazo">画像</span>
+                </div>
+                <p class="out"><b>人が担うこと：</b>出す商品と見せ方の判断</p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用支援パック</p>
+              </article>
+              <article class="card focus">
+                <div class="head">
+                  <span class="id">B2</span
+                  ><span class="badge">★最初に効く</span>
+                </div>
+                <h4>会期後のお礼と追いかけを、翌日までに</h4>
+                <p>
+                  名刺の写真と会場でのメモを取り込み、問い合わせの一覧と、相手ごとのお礼メールの下書きを作ります。返事がない相手に2通目を送る時期も、一覧で管理します。
+                </p>
+                <div class="tags">
+                  <span class="tg t-bun">文章</span
+                  ><span class="tg t-yaku">翻訳</span
+                  ><span class="tg t-hyo">表計算</span>
+                </div>
+                <p class="out">
+                  <b>人が担うこと：</b>誰を優先して追うかの判断と、送信
+                </p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用支援パック</p>
+              </article>
+              <article class="card">
+                <div class="head"><span class="id">B3</span></div>
+                <h4>出展の振り返りと、次の判断材料</h4>
+                <p>
+                  問い合わせの数、国、関心を持たれた商品を集計し、出展ごとに比べられる形で残します。次にどの展示会に出るかを決める材料になります。
+                </p>
+                <div class="tags">
+                  <span class="tg t-hyo">表計算</span
+                  ><span class="tg t-bun">文章</span>
+                </div>
+                <p class="out"><b>人が担うこと：</b>出展先の判断</p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用顧問</p>
+              </article>
+            </div>
+          </div>
+          <div class="area">
+            <div class="area-head">
+              <span class="letter">C</span>
+              <h3>商品情報・EC</h3>
+            </div>
+            <div class="cards">
+              <article class="card focus">
+                <div class="head">
+                  <span class="id">C1</span
+                  ><span class="badge">★最初に効く</span>
+                </div>
+                <h4>商品の情報を1つの表にまとめ、各言語の説明へ</h4>
+                <p>
+                  ブランド・品目ごとの仕様、サイズ、対象（人・犬・猫）、使い方を1つの表（商品マスタ）に集めます。その表から日本語・英語・中国語などの商品説明を作るので、言語ごとに一から書く必要がなくなります。
+                </p>
+                <div class="tags">
+                  <span class="tg t-hyo">表計算</span
+                  ><span class="tg t-bun">文章</span
+                  ><span class="tg t-yaku">翻訳</span>
+                </div>
+                <p class="out">
+                  <b>人が担うこと：</b
+                  >表の中身の確認（正しい情報の元は御社です）
+                </p>
+                <p class="fee">
+                  <b>対応するご支援：</b>生成AI活用支援パック（スタンダード）
+                </p>
+              </article>
+              <article class="card">
+                <div class="head"><span class="id">C2</span></div>
+                <h4>EC の商品ページの文面</h4>
+                <p>
+                  国内の EC と海外の EC
+                  の商品ページの文面を、商品マスタから下書きします。表示のきまりの観点で確認が要りそうな言い回しには印を付けます。
+                </p>
+                <div class="tags">
+                  <span class="tg t-bun">文章</span
+                  ><span class="tg t-yaku">翻訳</span>
+                </div>
+                <p class="out">
+                  <b>人が担うこと：</b
+                  >表示の最終判断（医薬部外品・健康食品などは専門家に確認）
+                </p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用支援パック</p>
+              </article>
+              <article class="card">
+                <div class="head"><span class="id">C3</span></div>
+                <h4>レビュー・口コミの読み込み</h4>
+                <p>
+                  国内外の EC
+                  のレビューを集め、商品ごとに「良い点」「不満」「要望」に分けます。商品の改良や、説明の書き直しの材料にします。
+                </p>
+                <div class="tags">
+                  <span class="tg t-bun">文章</span
+                  ><span class="tg t-yaku">翻訳</span
+                  ><span class="tg t-hyo">表計算</span>
+                </div>
+                <p class="out"><b>人が担うこと：</b>改良するかどうかの判断</p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用支援パック</p>
+              </article>
+              <article class="card">
+                <div class="head"><span class="id">C4</span></div>
+                <h4>パッケージ・説明書の多言語表記のたたき台</h4>
+                <p>
+                  使い方の説明や注意書きを、各国の言語でたたき台にします。言語の間で内容がずれていないか、表記の揺れがないかも確かめます。
+                </p>
+                <div class="tags">
+                  <span class="tg t-yaku">翻訳</span
+                  ><span class="tg t-bun">文章</span>
+                </div>
+                <p class="out"><b>人が担うこと：</b>表示の確認と、最終の版下</p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用支援パック</p>
+              </article>
+            </div>
+          </div>
+          <div class="area">
+            <div class="area-head">
+              <span class="letter">D</span>
+              <h3>発信・広報</h3>
+            </div>
+            <div class="cards">
+              <article class="card">
+                <div class="head"><span class="id">D1</span></div>
+                <h4>1本書けば、日本語・英語・中国語へ</h4>
+                <p>
+                  新商品や展示会のお知らせ、開発の話を日本語で1本書くと、英語版と中国語版の下書きまで作ります。3つの言語のサイトに、同じ時期に載せられます。
+                </p>
+                <div class="tags">
+                  <span class="tg t-bun">文章</span
+                  ><span class="tg t-yaku">翻訳</span>
+                </div>
+                <p class="out"><b>人が担うこと：</b>テーマ決めと原稿の確認</p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用支援パック</p>
+              </article>
+              <article class="card">
+                <div class="head"><span class="id">D2</span></div>
+                <h4>SNS の投稿案</h4>
+                <p>
+                  Instagram・Facebook
+                  向けに、犬や猫の歯みがきのコツ、商品の使い方の投稿案と、画像のたたき台を作ります。月ごとの投稿の予定表も一緒に作ります。
+                </p>
+                <div class="tags">
+                  <span class="tg t-bun">文章</span
+                  ><span class="tg t-gazo">画像</span>
+                </div>
+                <p class="out"><b>人が担うこと：</b>投稿するかどうかの判断</p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用支援パック</p>
+              </article>
+              <article class="card">
+                <div class="head"><span class="id">D3</span></div>
+                <h4>現地語の紹介動画の台本・字幕・ナレーション</h4>
+                <p>
+                  取材記事にある現地語の紹介動画づくりを、台本・字幕・音声合成のナレーションまで生成AIで支えます。言語を増やすときの手間が小さくなります。
+                </p>
+                <div class="tags">
+                  <span class="tg t-bun">文章</span
+                  ><span class="tg t-yaku">翻訳</span
+                  ><span class="tg t-onsei">音声・動画</span>
+                </div>
+                <p class="out"><b>人が担うこと：</b>内容の確認と公開の判断</p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用支援パック</p>
+              </article>
+              <article class="card">
+                <div class="head"><span class="id">D4</span></div>
+                <h4>プレスリリースと、生成AIの検索で見つかるサイトへ</h4>
+                <p>
+                  新商品・展示会の発表文の下書きを作ります。あわせて、生成AIに「犬の歯みがき」などを尋ねたときに御社の商品が挙がりやすいサイトにするための改善点を、当社の診断ツールで洗い出します。
+                </p>
+                <div class="tags">
+                  <span class="tg t-bun">文章</span
+                  ><span class="tg t-jido">自動実行</span>
+                </div>
+                <p class="out">
+                  <b>人が担うこと：</b>発表の判断と、サイトを直すかどうかの判断
+                </p>
+                <p class="fee">
+                  <b>対応するご支援：</b>PR
+                  TIMES配信の半自動化・LLMOアナライザー
+                </p>
+              </article>
+            </div>
+          </div>
+          <div class="area">
+            <div class="area-head">
+              <span class="letter">E</span>
+              <h3>社内・経営</h3>
+            </div>
+            <div class="cards">
+              <article class="card">
+                <div class="head"><span class="id">E1</span></div>
+                <h4>AIに入れてよい情報を決め、設定する</h4>
+                <p>
+                  配合や原価、代理店との条件、お客様の情報のうち、どこまでを生成AIに入れてよいかを決め、使うサービスの設定まで行います。最初に取り組むことをおすすめする項目です。
+                </p>
+                <div class="tags"><span class="tg t-base">土台</span></div>
+                <p class="out"><b>人が担うこと：</b>線引きの決定</p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用顧問</p>
+              </article>
+              <article class="card">
+                <div class="head"><span class="id">E2</span></div>
+                <h4>社内の資料を、AIで探せるように</h4>
+                <p>
+                  過去の展示会資料、代理店とのやり取り、商品の仕様書を、質問すれば探して答える仕組みにします。担当の方が不在でも、同じ答えにたどり着けます。
+                </p>
+                <div class="tags">
+                  <span class="tg t-bun">文章</span
+                  ><span class="tg t-jido">自動実行</span>
+                </div>
+                <p class="out"><b>人が担うこと：</b>載せる資料の選定</p>
+                <p class="fee">
+                  <b>対応するご支援：</b>生成AI活用支援パック（スタンダード）
+                </p>
+              </article>
+              <article class="card">
+                <div class="head"><span class="id">E3</span></div>
+                <h4>社員の皆さま向けの生成AI研修</h4>
+                <p>
+                  海外営業、商品企画、事務など、職種ごとに実際の業務を題材にした研修を行います。全員が同じ基準で使える状態をつくります。
+                </p>
+                <div class="tags"><span class="tg t-base">土台</span></div>
+                <p class="out">
+                  <b>人が担うこと：</b>受講する方と題材の業務の選定
+                </p>
+                <p class="fee"><b>対応するご支援：</b>コミクスアカデミー</p>
+              </article>
+              <article class="card">
+                <div class="head"><span class="id">E4</span></div>
+                <h4>経営者ご本人への伴走</h4>
+                <p>
+                  社長ご自身の仕事のうち、決める仕事と人に会う仕事を残し、それ以外を生成AIへ移すことを、当社の代表と
+                  CIO
+                  がマンツーマンで支えます。毎週の数字を1画面で見る仕組みもご用意できます。
+                </p>
+                <div class="tags">
+                  <span class="tg t-bun">文章</span
+                  ><span class="tg t-hyo">表計算</span
+                  ><span class="tg t-jido">自動実行</span>
+                </div>
+                <p class="out"><b>人が担うこと：</b>経営の判断</p>
+                <p class="fee"><b>対応するご支援：</b>生成AI活用顧問</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="s5">
+        <div class="wrap">
+          <div class="sec-no">05</div>
+          <h2>始め方（3つの入り口）</h2>
+          <p class="intro">
+            20項目を一度に始める必要はありません。次の3つのうち、御社に合う入り口から始めます。費用は、対象の業務と範囲をうかがったうえで個別にご提示します。
+          </p>
+          <div class="three entry">
+            <div class="biz">
+              <div class="bignum">1</div>
+              <h4>社長ご本人から、安全に</h4>
+              <p>
+                E1 →
+                E4。まず生成AIに入れてよい情報を決め、社長ご自身の仕事から生成AIへ移します。
+              </p>
+              <p class="out"><b>対応：</b>生成AI活用顧問</p>
+            </div>
+            <div class="biz">
+              <div class="bignum">2</div>
+              <h4>海外営業の1つの仕事から</h4>
+              <p>
+                A1 →
+                B2。代理店とのメールと展示会後のフォローに絞って試し、かかる時間の変化を測ります。
+              </p>
+              <p class="out"><b>対応：</b>生成AI活用支援パック（ベーシック）</p>
+            </div>
+            <div class="biz">
+              <div class="bignum">3</div>
+              <h4>商品の情報の土台から</h4>
+              <p>
+                C1 → C2・D1。商品マスタを作り、そこから各言語の説明と EC
+                の文面へ広げます。
+              </p>
+              <p class="out">
+                <b>対応：</b>生成AI活用支援パック（スタンダード）
+              </p>
+            </div>
+          </div>
+          <h3 class="flow-title">進め方</h3>
+          <div class="steps">
+            <div>
+              <h4>業務を選ぶ</h4>
+              <p>時間がかかっている業務を1つ選びます</p>
+            </div>
+            <div>
+              <h4>その場で試す</h4>
+              <p>御社の実際の資料で、生成AIの下書きを試します</p>
+            </div>
+            <div>
+              <h4>一緒に実装する</h4>
+              <p>時間・件数・品質を、導入の前後で比べます</p>
+            </div>
+            <div>
+              <h4>運用を改善する</h4>
+              <p>使い方を見直し、次の業務へ広げます</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="s6">
+        <div class="wrap">
+          <div class="sec-no">06</div>
+          <h2>
+            <span class="nw">当社が自社で</span
+            ><span class="nw">実施していること</span>
+          </h2>
+          <p class="intro">
+            ご提案する内容は、当社が自分たちの業務で毎日使っている方法です。うまくいった手順を、そのまま御社の業務へ移します。
+          </p>
+          <table class="own">
+            <thead>
+              <tr>
+                <th>当社の実測</th>
+                <th>何をしているか</th>
+                <th>御社での使い道</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-l="当社の実測">
+                  <span class="big">304<small>社</small></span
+                  >生成AI活用の支援実績<span class="src"
+                    >（2026年9月末現在。うち生成AI活用顧問の導入は88人）</span
+                  >
+                </td>
+                <td data-l="何をしているか">
+                  業務を選ぶ → その場で試す → 一緒に実装する →
+                  運用を改善する、の4段階で進めています。
+                </td>
+                <td data-l="御社での使い道">支援一覧のすべての進め方</td>
+              </tr>
+              <tr>
+                <td data-l="当社の実測">
+                  <span class="big">15.4<small>人分</small></span
+                  >社長1人の生産能力<span class="src"
+                    >（1週間の成果物689件＝人手換算759.8時間 ÷
+                    実投入49.5時間。2026/7/29〜8/5、換算係数は自社基準）。生産能力の実測値であり、成果を保証するものではありません</span
+                  >
+                </td>
+                <td data-l="何をしているか">
+                  社長の仕事を「会う・決める・売る」に絞り、それ以外を生成AIへ移した結果の測定値です。
+                </td>
+                <td data-l="御社での使い道">
+                  経営者ご本人の時間の使い方の見直し［E4］
+                </td>
+              </tr>
+              <tr>
+                <td data-l="当社の実測">
+                  <span class="big">165<small>本／月</small></span
+                  >提案・診断資料（67社分）<span class="src"
+                    >2026/7/18〜8/18の実測</span
+                  >
+                </td>
+                <td data-l="何をしているか">
+                  相手先の公開情報を調べ、資料の下書きまでを生成AIで作成。人は内容の確認と判断に集中しています。
+                </td>
+                <td data-l="御社での使い道">
+                  新しい国の下調べ、展示会の資料づくり［A4・B1］
+                </td>
+              </tr>
+              <tr>
+                <td data-l="当社の実測">
+                  <span class="big">215<small>記事／2か月</small></span
+                  >note での発信<span class="src"
+                    >（2026年8〜9月。8月99＋9月116）</span
+                  >
+                </td>
+                <td data-l="何をしているか">
+                  人が担うのは「テーマを決める」「原稿を確認する」の2つだけ。構成、執筆、図解は半自動です。
+                </td>
+                <td data-l="御社での使い道">
+                  3言語での発信、SNS の投稿案［D1・D2］
+                </td>
+              </tr>
+              <tr>
+                <td data-l="当社の実測">
+                  <span class="big">15<small>本／1時間</small></span
+                  >プレスリリース文面<span class="src"
+                    >文面作成の実績で、配信・掲載の実績ではありません</span
+                  >
+                </td>
+                <td data-l="何をしているか">
+                  テーマと読者を1行入力すると、リリース文面まで展開する手順を整えています。
+                </td>
+                <td data-l="御社での使い道">新商品・展示会の発表［D4］</td>
+              </tr>
+              <tr>
+                <td data-l="当社の実測">
+                  <span class="big">15<small>本</small></span
+                  >毎日・毎週の自動実行<span class="src"
+                    >（2026/8/18時点。スキル165・エージェント31・外部連携9系統）</span
+                  >
+                </td>
+                <td data-l="何をしているか">
+                  毎朝、予定・未返信・案件の状況を集めて「今日やること」に仕分けした一覧が届きます。
+                </td>
+                <td data-l="御社での使い道">
+                  注文時期のお知らせ、販売状況のまとめ［A2・A3］
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="s7">
+        <div class="wrap">
+          <div class="sec-no">07</div>
+          <h2>生成AIに任せない仕事を、先に決めます</h2>
+          <p class="intro">
+            当社は、仕事を3つの問いで仕分けています。「決める仕事か」「相手の顔を見る必要があるか」「手順を書けば再現できるか」。前の2つは人が担い、3つ目だけを生成AIへ移します。
+          </p>
+          <div class="overlap">
+            <div class="done">
+              <span class="tag">人が担い続ける仕事</span>
+              <ul>
+                <li>代理店との信頼関係づくりと、条件の交渉</li>
+                <li>配合・品質・安全にかかわる判断</li>
+                <li>表示や登録の最終確認（専門家・代理店とともに）</li>
+                <li>展示会や面談で、相手の顔を見て話すこと</li>
+              </ul>
+            </div>
+            <div class="next">
+              <span class="tag">生成AIへ移す仕事</span>
+              <ul>
+                <li>メールや資料の下書きと翻訳</li>
+                <li>調べもの・要約・比較</li>
+                <li>商品説明・投稿・台本のたたき台</li>
+                <li>毎月・毎週の決まった集計と一覧づくり</li>
+              </ul>
+            </div>
+          </div>
+          <h3 class="flow-title">次にうかがいたいこと</h3>
+          <ol class="asks">
+            <li>
+              いま、生成AIを業務で使っておられますか。どなたが、どんな場面で使っていますか。
+            </li>
+            <li>
+              代理店とのやり取りは、何語で、どなたが担当しておられますか。
+            </li>
+            <li>
+              展示会の後のフォローには、どのくらいの日数と人手がかかっていますか。
+            </li>
+            <li>
+              配合や取引の条件、お客様の情報を生成AIに入れてよいか、社内の決まりやご不安はありますか。
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
+
+    <aside class="notes" id="s8">
+      <div class="wrap">
+        <div class="sec-no">08</div>
+        <h2>注記と出典</h2>
+        <h3>御社に関する情報の確認元</h3>
+        <ul>
+          <li>
+            株式会社マインドアップ 公式サイト（2026年11月15日閲覧）: 会社概要
+            <a href="https://mindup.co.jp/company/" rel="noopener"
+              >https://mindup.co.jp/company/</a
+            >
+            ／代理店
+            <a href="https://mindup.co.jp/distributors/" rel="noopener"
+              >https://mindup.co.jp/distributors/</a
+            >
+            ／商品紹介
+            <a href="https://mindup.co.jp/goods/" rel="noopener"
+              >https://mindup.co.jp/goods/</a
+            >
+            ／ニュース
+            <a href="https://mindup.co.jp/news/category/ctgr_01/" rel="noopener"
+              >https://mindup.co.jp/news/category/ctgr_01/</a
+            >
+          </li>
+          <li>
+            ジェトロ（JETRO）地域・分析レポートの取材記事（2026年1月7日公開・2025年10月29日取材）:
+            <a
+              href="https://www.jetro.go.jp/biz/areareports/special/2025/1203/711130cfe57082c9.html"
+              rel="noopener"
+              >https://www.jetro.go.jp/biz/areareports/special/2025/1203/711130cfe57082c9.html</a
+            >
+          </li>
+          <li>
+            「時間がかかりやすい場所」と、各支援項目の組み合わせ・始め方の3案は、公開情報をもとに当社が置いた推定です。面談でうかがった内容に合わせて改訂します。
+          </li>
+        </ul>
+        <h3>当社の実績値の出典</h3>
+        <ul>
+          <li>
+            支援実績304社・顧問導入88人：コミクス「AI支援メニュー一覧」（2026年9月末現在）
+          </li>
+          <li>
+            生産能力15.4人分、提案・診断資料165本（67社分）、自動実行15本ほか：「生産性15.4人分
+            AI経営実測記録」2026年8月21日
+          </li>
+          <li>
+            note
+            215記事：「note発信半自動化支援」（2026年8〜9月）／プレスリリース文面15本：「PR
+            TIMES配信の半自動化」／LLMOアナライザー：「LLMOアナライザー
+            ご紹介資料」（AIの回答への掲載・順位は保証しません）
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <footer>
+      <div class="wrap">
+        <div class="sig">
+          鈴木章裕<br />株式会社コミクス 代表取締役<br /><a
+            href="https://www.comix.co.jp/"
+            rel="noopener"
+            >https://www.comix.co.jp/</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
